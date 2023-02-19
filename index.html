@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form | Abhee Krishna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background-img">
+            <img class="bg" src="./images/background.jpg" alt="">
+        </div>
+        <div class="content">
+            <p class="heading">This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now to get started.</p>
+            <p class="sub-heading">You know you want to.</p>
+            <p class="form-heading">Let's do this!</p>
+            <form action="post">
+
+            <div class="input-element">
+                <label for="first-name">FIRST NAME<span class="required">*</span></label>
+                <input type="text" name="first-name" id="" required placeholder="Enter Your First Name">
+            </div>
+
+            <div class="input-element">
+                <label for="last-name">LAST NAME<span class="required">*</span></label>
+                <input type="text" name="last-name" id="" required placeholder="Enter Your Last Name">
+            </div>
+
+            <div class="input-element">
+                <label for="email">EMAIL<span class="required">*</span></label>
+                <input type="email" name="email" id="" required placeholder="Enter Your Email"> 
+            </div>
+
+            <div class="input-element">
+                <label for="phone-number">PHONE NUMBER<span class="required">*</span></label>
+                <input type="tel" name="phone-number" id="" required placeholder="Enter Your Phone Number">
+            </div>
+
+            <div class="input-element">
+                <label for="pasword">PASSWORD<span class="required">*</span></label>
+                <input type="password" name="password" id="password" required placeholder="Enter Your Password">
+            </div>
+
+            <div class="input-element">
+                <label for="confirm-pasword">CONFIRM PASSWORD<span class="required">*</span></label>
+                <input type="password" name="confirm-password" id="confirm-password" required placeholder="Confirm Your Password">
+                <p class="error"></p>
+            </div>
+            <button type="submit">Create Account</button>
+            
+            </form>
+            <p class="login">Already have an account? <a href="">Log in</a></p>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
